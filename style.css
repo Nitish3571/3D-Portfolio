@@ -426,10 +426,25 @@ body {
   top: -1.8rem;
 }
 
+#hideDevice{
+  display: none;
+}
+
 /* Responsive */
-@media screen and (max-width: 1024px) {
-  .wrapper {
+@media screen and (max-width: 480px) {
+  /* .wrapper {
     width: 60rem;
     height: 40rem;
-  }
+  } */
+   .wrapper{
+    display: none;
+   }
+   #hideDevice{
+    display: block;
+    color: #fff;
+    justify-items: center;
+    padding: 0px 30px;
+    text-align: center;
+   }
 }
+
